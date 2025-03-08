@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
-
+import plotly.graph_objects as go
 
 st.set_page_config(
     page_title="Breast Cancer Predictor",
