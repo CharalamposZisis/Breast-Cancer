@@ -29,7 +29,7 @@ def add_predictions(input_data):
 
     st.write('Probability of being bening',model.predict_proba(input_array_scaled)[0][0])
     st.write('Probability of being malicious',model.predict_proba(input_array_scaled)[0][1])
-    st.write('This app can assist Theofilo Zisi to in making diagnosis, but should not be used a subtitude for professional diagnosis.')
+    st.write('This app can assist cytologi labs in making diagnosis, but should not be used a subtitude for professional diagnosis.')
 def get_clean_data():
     df = pd.read_csv('data.csv')
     df = df.drop(columns=['Unnamed: 32', 'id'],axis=1)
