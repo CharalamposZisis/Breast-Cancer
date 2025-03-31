@@ -6,7 +6,6 @@ from sklearn.metrics import accuracy_score, classification_report
 import pickle
 
 
-
 def create_model(df): 
   X = df.drop(['diagnosis'], axis=1)
   y = df['diagnosis']
